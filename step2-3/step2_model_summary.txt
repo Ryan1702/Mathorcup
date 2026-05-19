@@ -1,0 +1,28 @@
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:                  高血脂标签   No. Observations:                 1000
+Model:                          Logit   Df Residuals:                      989
+Method:                           MLE   Df Model:                           10
+Date:                Sat, 18 Apr 2026   Pseudo R-squ.:                  0.7102
+Time:                        17:23:47   Log-Likelihood:                -147.80
+converged:                       True   LL-Null:                       -509.95
+Covariance Type:            nonrobust   LLR p-value:                3.779e-149
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        -13.0663      2.108     -6.199      0.000     -17.198      -8.935
+TC             1.6683      0.151     11.054      0.000       1.372       1.964
+TG             4.5538      0.427     10.673      0.000       3.718       5.390
+LDL_C          1.0881      0.292      3.731      0.000       0.517       1.660
+HDL_C         -2.8869      0.609     -4.741      0.000      -4.080      -1.694
+血糖            -0.1023      0.149     -0.687      0.492      -0.394       0.190
+血尿酸            0.0053      0.001      4.237      0.000       0.003       0.008
+BMI           -0.0341      0.050     -0.679      0.497      -0.132       0.064
+ADL            0.0105      0.022      0.482      0.630      -0.032       0.053
+IADL          -0.0134      0.022     -0.615      0.538      -0.056       0.029
+痰湿质积分          0.0035      0.007      0.477      0.633      -0.011       0.018
+==============================================================================
+
+Possibly complete quasi-separation: A fraction 0.23 of observations can be
+perfectly predicted. This might indicate that there is complete
+quasi-separation. In this case some parameters will not be identified.
